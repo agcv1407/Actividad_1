@@ -1,0 +1,40 @@
+body{
+    background-color: #212121;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.header__title{
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.coffee__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    row-gap: 100px;
+}
+
+.coffee__card{
+    margin: 0 auto;
+}
+
+.coffee__img{
+    max-width: 250px;
+}
+
+.coffee__title{
+    text-align: center;
+    color: #dcdcdc;
+}
